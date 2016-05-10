@@ -14,3 +14,5 @@ ENV APP_ID=appId
 ENV MASTER_KEY=masterKey
 
 EXPOSE 1337
+
+CMD ["npm", "start"]
